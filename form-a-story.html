@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<div id="header">
+			<div id="center">
+				<img src="https://anmolverma01.github.io/story/logobook.png" >
+			</div>
+			<div id="heading">Make-story</div>
+				<div id="slogan">Fill your dream characters</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="container">
+		<form id="form" action="story.html" method="get">
+			<br>
+			<label for="animal-1" class="field">Animal:</label><br>
+			<input type="text" class="input" name="animal-1" required="required" placeholder="Your Favourite Animal"><br>
+			<br>
+			<label for="animal-2" class="field">Another Animal:</label><br>
+			<input type="text" class="input" name="animal-2" required="required" placeholder="Your Another Favourite Animal"><br>
+			<br>
+			<label for="animal-3" class="field">One More Animal:</label><br>
+			<input type="text" class="input" name="animal-3" required="required" placeholder="One More Animal"><br>
+			<br>
+			<label for="adj-1" class="field">Adjective (Past tense):</label><br>
+			<input type="text" class="input" name="adj-1" required="required" placeholder="adjective in past tense"><br>
+			<br>
+			<label for="verb-1" class="field">Verb (ends in -ing):</label><br>
+			<input type="text" class="input" name="verb-1" required="required" placeholder="ing form of verb"><br>
+			<br>
+			<label for="num-1" class="field">Number:</label><br>
+			<input type="number" class="input" name="num-1" required="required" placeholder="Put any desigred number"><br>
+			<br>
+			<span class="field">Yes or No:</span><br>
+			<input type="radio" id="yesno" name="answer" value="yes" required="required">
+			<label for="yes" class="field">Yes</label>
+			<input type="radio" id="yesno" name="answer" value="no" required="required">
+			<label for="no" class="field">No</label><br>
+			<br>
+			<label class="field">Relative speed (ends in -er)</label><br>
+			<select class="input" name="speed" required="required" class="speed"><br>
+				<option value="faster">Faster</option>
+				<option value="quicker">Quicker</option>
+				<option value="speeder">Speeder</option>
+			</select><br>
+			<br>
+			<label for="quote" class="field">Motivational Quote:</label><br>
+			<input type="text" name="quote" class="input" list="quote-choices" id="quote" required="required" placeholder="example"><br>
+			<datalist id="quote-choices">
+				<option value="codeacademy"></option>
+				<option value="code"></option>
+				<option value="example"></option>
+			</datalist>
+			<br>
+			<label for="message" class="field">Meaningful message:</label>
+			<br>
+			<textarea class="input" name="message" rows="8" cols="40" placeholder="this is Meaningful message"></textarea>
+			<br>
+		</div>
+	</form>
+	<div id="button-box">
+		<a href="./story.html"><input type="submit" name="" value="Form My Story!" id="formbtn"></a>
+	</div>
+	<h4 class="foot1">© All rights reserved with <span style="color: black;">DESIGN PVT. LTD.</span></h4>
+
+	<script src="./scripts/main.js"></script>
+</body>
+</html>
